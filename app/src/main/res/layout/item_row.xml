@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <ImageView
+        android:id="@+id/imgHinh"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_margin="10dp"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mua bán có tâm"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@+id/imgHinh"/>
+
+    <TextView
+        android:id="@+id/txtSlFan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTen"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:text="8k Fan"
+        android:textColor="@color/black"
+         />
+
+    <TextView
+        android:id="@+id/txtSlBaiViet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTen"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@+id/txtSlFan"
+        android:text="+10 bài viết mới"
+        android:textColor="#8D8D8D"
+        />
+
+    <TextView
+        android:id="@+id/txtTrangThai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSlFan"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:text="Nhóm đóng"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
